@@ -1,35 +1,25 @@
-<div style="z-index:10000;position:fixed;border:2px solid rgba(0,0,0,.3);bottom:15px;left:15px;background-color:#fff;padding:12px;border-radius: 4px;">
-<span style="overflow: auto;width:100%;">
+<div style="z-index:10000;position:fixed;border:2px solid rgba(0,0,0,.3);bottom:15px;left:15px;background-color:#fff;padding:15px;border-radius:4px;">
+<span style="overflow:auto;">
 <span style="float:left;">&#169;<a href="https://www.facebook.com/paman.bob.98" target="_blank" style="text-decoration:none;" title="Minta Bantuan">Pamanbob</a></span>
-<small style="float:right;display:inline-block;">
-<button type="button" class="tamper" style="background-color:#0095f6;color:#fff;cursor:pointer;width:53px;margin-right:0px;border:none;border-radius:3px;padding:3px;">Tamper</button>
-<button type="button" class="batalmengikuti" style="background-color:#0095f6;color:#fff;cursor:pointer;width:30px;border:none;border-radius:3px;padding:3px;">UF</button>
-<button class="getUsername" style="cursor:pointer;background-color:#0095f6;color:#fff;width:33px;border:none;border-radius:3px;padding:3px;margin-left:0px;">UID</button>
-</small>
+<span style="float:right;display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;"><button type="button" class="tamper" style="background-color:#0095f6;color:#fff;cursor:pointer;width:53px;border:none;border-radius:3px;padding:3px;">Tamper</button><button type="button" class="batalmengikuti" style="background-color:#0095f6;color:#fff;cursor:pointer;width:30px;border:none;border-radius:3px;padding:3px;">UF</button><button class="getUsername" style="cursor:pointer;background-color:#0095f6;color:#fff;width:33px;border:none;border-radius:3px;padding:3px;">UID</button></span>
 </span>
-<div style="font-size:4px;text-align:center;color:#000000;width:100%;display:inline-block;margin-top:5px;border-bottom:1px solid #ddd;padding-bottom:3px;">
-<input type="number" class="pengguna" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:79px;margin-right:1px;" placeholder="Njalok Follow Piro" value="1000" />
-<input type="number" class="waktu" style="border:1px solid #ccc;padding:8px;border-radius:3px;margin-right:1px;width:79px;" placeholder="Detik" value="10">
-<input type="number" class="jumlahuser" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:79px;" placeholder="User" value="200"><br>
-<select class="jenis" style="width:98px;border:1px solid #ccc;padding:11px;border-radius:3px;margin-right:1px;"><option value="#" selected="selected">Robot</option><option value="hide">Hide</option><option value="flood">Flood</option><option value="fast">Fast</option><option value="medium">Medium</option><option value="slow">Slow</option></select><select class="link" style="width:98px;margin-bottom:3px;border:1px solid #ccc;padding:11px;border-radius:3px;margin-right:1px;"><option value="#">Domain</option><option value="random">app</option><option value="bnc" selected="selected">bnc</option><option value="goolnk">goolnk</option><option value="bitly">bitly</option></select><input type="text" id="csrf" style="width:80px;border:1px solid #ccc;padding:9px;border-radius:3px;" placeholder="CSRF"><br>
-<input type="url" class="android" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:80px;margin-right:1px;" placeholder="ANDROID">
-<input type="url" class="ios" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:80px;margin-right:1px;" placeholder="IOS">
-<input type="url" class="web" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:80px;margin-bottom:1px;" placeholder="WEB">
+<div style="display:inline-block;margin-top:5px;width:100%;">
+<span style="display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;"><select class="jenis" style="width:90px;border:1px solid #ccc;padding:8px;border-radius:3px;"><option value="#" selected="selected">Robot</option><option value="hide">Hide</option><option value="flood">Flood</option><option value="fast">Fast</option><option value="medium">Medium</option><option value="slow">Slow</option></select><select class="link" style="width:90px;border:1px solid #ccc;padding:8px;border-radius:3px;"><option value="#" selected="selected">Domain</option><option value="random">App</option><option value="bnc">Bnc</option><option value="goolnk">Goolnk</option><option value="bitly">Bitly</option></select><select class="filter" style="width:90px;border:1px solid #ccc;padding:8px;border-radius:3px;"><option value="#" selected="selected">UID</option><option value="private">Private</option><option value="public">Public</option><option value="kabeh">Kabeh</option></select></span>
+<span style="display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;"><input type="number" class="pengguna" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" placeholder="Njalok Follow Piro" value="1000"><input type="number" class="waktu" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" placeholder="Detik" value="10"><input type="number" class="jumlahuser" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" placeholder="User" value="200"></span>
+<span style="display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;"><input type="url" class="android" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" width="30" placeholder="ANDROID"><input type="url" class="ios" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" placeholder="IOS"><input type="url" class="web" style="border:1px solid #ccc;padding:8px;border-radius:3px;width:72px;" placeholder="WEB"></span>
 </div>
-<textarea id="hasil" rows="9" cols="34" style="margin-bottom:5px;" placeholder="HASIL UID"></textarea>
+<textarea id="hasil" rows="9" cols="34" style="margin-bottom:5px;" placeholder="UID"></textarea>
 <span style="overflow:auto;width:100%;display:inline-block;">
 <div style="float:left;">
 <span style="display:inline-block;">
-<span style="display:inline-block;margin-top:-1px;"> Run: | <strong class="uid" style="color:#58c322;margin-right:3px;">0</strong> | <strong class="olePiro" style="color:#3897f0;margin-right:3px;">0</strong> | <strong class="mendal" style="color:#e40031;">0</strong> |</span>
+<span style="display:inline-block;margin-top:-1px;"> Run | <strong class="uid" style="color:#58c322;margin-right:3px;">0</strong> | <strong class="olePiro" style="color:#3897f0;margin-right:3px;">0</strong> | <strong class="mendal" style="color:#e40031;">0</strong> |</span>
 </span>
-<small style="margin-top:-1px;">Akun Ig: <span class="quality"></span></small>
+<small style="margin-top:-1px;">UID mu: <span class="rhankUID"></span></small>
 <small style="margin-top:-1px;">Log: <span class="errorLog"></span></small>
 </div>
-<div style="float:right;display:inline-block;">
-<button class="DMS" style="background-color:#0095f6;color:#fff;cursor:pointer;width:33px;border:none;border-radius:3px;padding:3px;margin-right:0px;">Dm</button>
-<button class="DMG" style="background-color:#0095f6;color:#fff;cursor:pointer;width:44px;margin-top:2px;border:none;border-radius:3px;padding:3px;">Dm-G</button><br>
-<button class="gawe" style="background-color:#0095f6;color:#fff;cursor:pointer;width:48px;margin-top:2px;margin-right:0px;border:none;border-radius:3px;padding:3px;">Create</button>
-<button class="ajax" style="background-color:#0095f6;color:#fff;cursor:pointer;width:30px;margin-top:2px;border:none;border-radius:3px;padding:3px;">Bio</button>
+<div style="float:right;">
+<span style="display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;margin-top:2px;"><button class="DMS" style="background-color:#0095f6;color:#fff;cursor:pointer;width:33px;border:none;border-radius:3px;padding:3px;">Dm</button><button class="DMG" style="background-color:#0095f6;color:#fff;cursor:pointer;width:44px;border:none;border-radius:3px;padding:3px;">Dm-G</button></span>
+<span style="display:grid;grid-auto-flow:column;grid-column-gap:1px;margin-bottom:2px;margin-top:2px;"><button class="gawe" style="background-color:#0095f6;color:#fff;cursor:pointer;width:48px;border:none;border-radius:3px;padding:3px;">Create</button><button class="ajax" style="background-color:#0095f6;color:#fff;cursor:pointer;width:30px;border:none;border-radius:3px;padding:3px;">Bio</button>
 </div>
 </span>
 </div>
