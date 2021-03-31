@@ -1,0 +1,87 @@
+.radium {
+    z-index:10000;
+    position:fixed;
+    border:2px solid rgba(0,0,0,.3);
+    top:9px;
+    left:9px;
+    background-color:#fff;
+    padding:13px;
+    border-radius:4px;
+}
+
+.flg {
+    display:inline-block;
+    margin-top:5px;
+    width:100%;
+}
+
+.slect_one {
+    width:76px;
+    border:1px solid #ccc;
+    padding:8px;
+    border-radius:3px;
+    background-color:#e6e6e6;
+}
+
+.two {
+    width:75px;
+    border:1px solid #ccc;
+    padding:8px;
+    border-radius:3px;
+    background-color:#e6e6e6;
+}
+
+.three {
+    width:73px;
+    border:1px solid #ccc;
+    padding:8px;
+    border-radius:3px;
+    background-color:#e6e6e6;
+}
+
+.tamperbtn {
+    background-color:#0095f6;
+    color:#fff;
+    cursor:pointer;
+    width:55px;
+    border:none;
+    border-radius:3px;
+    padding:3px;
+}
+
+.textInput {
+    border:1px solid #ccc;
+    padding:8px;
+    border-radius:3px;
+    width:80px;
+}
+
+.four {
+    width:70px;
+    border:1px solid #ccc;
+    padding:8px;
+    border-radius:3px;
+    background-color:#e6e6e6;
+}
+
+.hopping {
+    overflow:auto;
+    width:100%;
+    display:inline-block;
+}
+
+.float-l {
+    float:left;
+}
+
+.float-r {
+    float:right;
+}
+
+.gridd {
+    display:grid;
+    grid-auto-flow:column;
+    grid-column-gap:2px;
+    margin-bottom:2px;
+    margin-top: 2px;
+}
