@@ -3,4 +3,4 @@ var get_one = ['rate my arch 1-10', 'Homegrown Hotwife', 'Craving to be milked G
 var siji =  Math.floor(Math.random() * get_one.length);
 string.docking = get_one[siji];
 var out = JSON.stringify(string);
-console.log(JSON.parse(out));
+JSON.parse(out)
